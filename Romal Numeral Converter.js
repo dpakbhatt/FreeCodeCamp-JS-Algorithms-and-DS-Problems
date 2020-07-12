@@ -14,7 +14,6 @@ function convertToRoman(num) {
       num -= arabic[i];
     }
   }
-
   return result;
 }
 
