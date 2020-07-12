@@ -9,7 +9,6 @@ function rot13(str) {
       rotCharArray.push(str[x].charCodeAt());
     }
   }
-  
   str = String.fromCharCode.apply(String, rotCharArray);
 
   return str;
