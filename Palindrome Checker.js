@@ -13,7 +13,6 @@ else
 halfway = (strlength - 1)/2;
 }
 var match = 0;
-
 for( var i = 0; i < halfway; i++)
     {
       if(str.charAt(i) == str.charAt(strlength - i-1))
